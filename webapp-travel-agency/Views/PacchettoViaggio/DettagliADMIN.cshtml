@@ -1,0 +1,22 @@
+﻿@model PacchettoViaggio
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="d-flex align-items-center">
+                <h1 class="mt-3 mb-3">Dettagli Del Viaggio</h1>
+            </div>
+            <div class="post-single-image-container">
+                <img src="@Model.img">
+            </div>
+            <p>
+                <strong>Nome Viaggio:</strong>
+                @Model.nome
+            </p>
+            <p>
+                <strong>Contenuto:</strong>
+                @Model.descrizione
+            </p>
+        </div>
+    </div>
+</div>
