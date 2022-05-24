@@ -16,13 +16,13 @@
      <header>
          <!------------------------NavBar--------------------------------------->
          <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand"  href=""@Url.Action("Index", "PacchettoViaggio")">TRAVELMY</a> 
+  <a class="navbar-brand"  href="@Url.Action("Index", "PacchettoViaggio")">TRAVELMY</a> 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href=""@Url.Action("Index", "PvUtente")">Utente </a>
+      <a class="nav-item nav-link active" href="@Url.Action("Get", "PvUtente")">Utente </a>
      
     </div>
   </div>
@@ -37,7 +37,7 @@
    <!--axios-->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
     @RenderSection("Scripts", required: false)
-
+    
 </body>
 
 
